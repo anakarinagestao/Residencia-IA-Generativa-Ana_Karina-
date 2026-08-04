@@ -1,6 +1,6 @@
 # Residência em Tecnologias de IA Generativa - Aula 01
 
-**Autor:** Ana Karina [Seu Sobrenome]
+**Autor:** Ana Karina 
 
 ## Propósito
 
