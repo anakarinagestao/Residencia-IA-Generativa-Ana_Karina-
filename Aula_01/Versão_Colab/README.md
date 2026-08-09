@@ -1,50 +1,55 @@
-# 🤖 Residência em IA Generativa
+<div align="center">
 
-Bem-vindo ao meu repositório da **Residência em IA Generativa**! 🚀
+# 🧠 Residência em IA Generativa
 
-Aqui estão registradas todas as minhas atividades, experimentos e aprendizados ao longo da residência.
+### *Jornada de aprendizagem e aplicação prática em Inteligência Artificial Generativa*
 
-## 👩‍💻 Sobre mim
+[![Status](https://img.shields.io/badge/Status-Em%20andamento-green?style=flat-square)](https://github.com/seu-usuario/Residencia-IA-Generativa-Ana_Karina)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenRouter](https://img.shields.io/badge/API-OpenRouter-purple?style=flat-square)](https://openrouter.ai/)
+[![Colab](https://img.shields.io/badge/Ambiente-Google%20Colab-orange?style=flat-square&logo=googlecolab)](https://colab.research.google.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-- **Nome:** Ana Karina
-- **Cidade:** Ubá - MG
-- **Objetivo:** Aprender e aplicar IA Generativa em projetos práticos
-
-
-## 🎯 O que estou aprendendo
-
-- 🔹 Uso de APIs de modelos de linguagem (LLMs)
-- 🔹 Integração com OpenRouter
-- 🔹 Google Colab para experimentação
-- 🔹 Boas práticas com GitHub
-- 🔹 Criação de aplicações com IA
-
-## 🛠️ Tecnologias utilizadas
-
-- **Python** — linguagem principal
-- **Google Colab** — ambiente de execução
-- **OpenRouter** — gateway para LLMs
-- **OpenAI SDK** — cliente da API
-- **GitHub** — versionamento de código
-
-## 🚀 Como executar os notebooks
-
-1. Abra o notebook desejado no **Google Colab**
-2. Configure a secret `OPENROUTER_API_KEY` com sua chave do OpenRouter
-3. Execute as células em ordem
-
-## 📝 Registro de atividades
-
-### Aula 01 — Primeiro contato com LLMs ✅
-- Configuração do ambiente no Colab
-- Criação de chave API no OpenRouter
-- Primeira chamada ao modelo `nvidia/nemotron-3-ultra-550b-a55b:free`
-- Geração de um haiku sobre IA:
-
-> *Silent code awakes,*  
-> *Dreams in patterns, learns, creates,*  
-> *Mind without a breath.*
+</div>
 
 ---
 
-📅 **Atualizado em:** Agosto de 2026
+## 📑 Índice
+
+- [Visão Geral](#-visão-geral)
+- [Objetivos](#-objetivos)
+- [Arquitetura Técnica](#-arquitetura-técnica)
+- [Estrutura do Repositório](#-estrutura-do-repositório)
+- [Pré-requisitos](#-pré-requisitos)
+- [Como Executar](#-como-executar)
+- [Registro de Atividades](#-registro-de-atividades)
+- [Competências Desenvolvidas](#-competências-desenvolvidas)
+- [Referências](#-referências)
+- [Licença](#-licença)
+
+---
+
+## 🔍 Visão Geral
+
+Este repositório documenta minha trajetória na **Residência em IA Generativa**, contendo experimentos práticos, implementações de código e reflexões sobre o uso de modelos de linguagem (LLMs) em cenários reais.
+
+O projeto segue uma abordagem **mão-na-massa**, combinando fundamentos teóricos com aplicações práticas utilizando APIs de modelos de inteligência artificial através do gateway [OpenRouter](https://openrouter.ai/).
+
+---
+
+## 🎯 Objetivos
+
+### Objetivo Geral
+Desenvolver competências técnicas e conceituais em IA Generativa, com foco em aplicações práticas e integradas.
+
+### Objetivos Específicos
+- ✅ Compreender a arquitetura e funcionamento de LLMs
+- ✅ Implementar integrações com APIs de modelos de linguagem
+- ✅ Explorar diferentes modelos e suas características
+- ✅ Aplicar boas práticas de desenvolvimento e versionamento
+- ✅ Documentar aprendizados e experimentos de forma estruturada
+
+---
+
+## 🏗️ Arquitetura Técnica
+
