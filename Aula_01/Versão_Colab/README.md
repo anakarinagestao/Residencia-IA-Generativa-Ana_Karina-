@@ -56,12 +56,13 @@ response = client.chat.completions.create(
 
 print(response.choices[0].message.content)
 
+## 📖 Sobre
 # 📝 Atividades
 
 01	Introdução aos LLMs via API	✅ Concluído
 02	Em desenvolvimento	⏳ Próxima
 
-
+## 📖 Sobre
 # 🛠️ Stack
 
 Python — Linguagem principal
