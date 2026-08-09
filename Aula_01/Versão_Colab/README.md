@@ -55,15 +55,15 @@ response = client.chat.completions.create(
 )
 
 print(response.choices[0].message.content)
-##📝 Atividades
 
-Aula,Tópico,Status
-Aula	Tópico	Status
+## 📝 Atividades
+
+Aula
 01	Introdução aos LLMs via API	✅ Concluído
 02	Em desenvolvimento	⏳ Próxima
 
 
-##🛠️ Stack
+## 🛠️ Stack
 Python — Linguagem principal
 Google Colab — Ambiente de execução
 OpenRouter — Gateway para LLMs
