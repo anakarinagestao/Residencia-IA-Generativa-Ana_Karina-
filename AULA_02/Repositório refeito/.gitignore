@@ -1,0 +1,35 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ===== Jupyter / Google Colab =====
+.ipynb_checkpoints/
+
+# ===== Ambiente virtual =====
+venv/
+.venv/
+env/
+
+# ===== Variáveis de ambiente (NUNCA subir o .env real!) =====
+.env
+
+# ===== Arquivos grandes e temporários =====
+*.zip
+*.tar.gz
+
+# ===== Sistema operacional =====
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== PDFs (opcional: descomente se não quiser subir os PDFs) =====
+# pdfs/*.pdf
