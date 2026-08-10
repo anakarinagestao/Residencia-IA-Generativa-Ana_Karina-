@@ -1,75 +1,62 @@
-# Residência em Tecnologias de IA Generativa - Aula 01
+# 🤖 Residência em IA Generativa — PUC Rio 2026
 
-**Autor:** Ana Karina 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
+[![Google Colab](https://img.shields.io/badge/Colab-Notebook-orange?logo=googlecolab)](https://colab.research.google.com/)
+[![Status](https://img.shields.io/badge/Status-Em%20andamento-yellowgreen)]()
 
-## Propósito
-
-Este repositório foi criado para registrar meu aprendizado durante a Residência em Tecnologias de IA Generativa.
-
-Aqui serão armazenados os códigos, exercícios, projetos e anotações desenvolvidos ao longo das aulas, servindo como registro da minha evolução na área de Inteligência Artificial.
+> Repositório dos projetos desenvolvidos durante a **Residência em IA Generativa da PUC Rio**, com foco em aplicações práticas de IA e processamento inteligente de documentos.
 
 ---
 
-## Introdução à IA - Aula 01
+## 👩‍💻 Sobre
 
-Este projeto contém o código inicial para interagir com a API da OpenAI utilizando Python.
+**Ana Karina** — Participante da Residência em IA Generativa (Turma 2026)  
+📍 RJ, RJ — Brasil
 
-Para garantir a eficiência de recursos e o isolamento das dependências, recomendamos fortemente o uso de um Ambiente Virtual Python (Virtual Environment ou venv).
+Repositório dedicado aos projetos práticos da residência, explorando IA Generativa, processamento de documentos e automação inteligente.
 
-## 🚀 Passo a Passo para Configuração e Execução
+---
 
-### 1. Criar o Ambiente Virtual (venv)
+## 📚 Projetos
 
-No Linux/macOS
+| # | Projeto | Descrição | Tecnologias | Status |
+|:-:|---------|-----------|-------------|:------:|
+| 01 | [Configuração do Ambiente](./aula_1/) | Introdução ao Google Colab, Git e GitHub | Python, Colab, Git | ✅ Concluído |
+| 02 | [Conversão de PDFs com Docling](./aula_2/) | Pipeline de conversão PDF → Markdown/JSON com extração de metadados | Python, Docling, JSON, Regex | ✅ Concluído |
+| 03 | _Em breve_ | — | — | 🔄 Próximo |
 
-```bash
-python3 -m venv venv
-```
+---
 
-No Windows
+## 🛠️ Tecnologias
 
-```bash
-python -m venv venv
-```
+- **Python 3.10+** — Linguagem principal
+- **Google Colab** — Ambiente de execução em nuvem
+- **Docling** — Conversão e parsing de documentos
+- **Git & GitHub** — Controle de versão e portfólio
+- **Jupyter Notebook** — Documentação interativa
 
-### 2. Ativar o Ambiente Virtual
+---
 
-No Linux/macOS
-
-```bash
-source venv/bin/activate
-```
-
-No Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### 3. Instalar as Dependências
+## 🚀 Como executar
 
 ```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/Residencia-IA-Generativa-Ana_Karina.git
+
+# Entre na pasta do projeto desejado
+cd Residencia-IA-Generativa-Ana_Karina/aula_2
+
+# Instale as dependências
 pip install -r requirements.txt
-```
 
-### 4. Configurar as Variáveis de Ambiente
+# Abra o notebook no Colab ou Jupyter
 
-Crie um arquivo `.env` contendo:
+📬 Contato
+📧 E-mail:ANAKARINAGESTAO@GMAIL.COM
+💼 LinkedIn: https://www.linkedin.com/in/anakarinapereira/
+🐙 GitHub: https://github.com/anakarinagestao)
 
-```text
-OPENAI_API_KEY=sua_chave_de_api_aqui
-OPENAI_MODEL=gpt-4o-mini
-```
 
-### 5. Executar o projeto
+Feito com 💜 por Ana Karina — PUC Rio 2026
 
-```bash
-cd AULA_01
-python hello_llm.py
-```
-
-### Encerrar o ambiente virtual
-
-```bash
-deactivate
-```
+Se gostou, considere dar uma ⭐!
