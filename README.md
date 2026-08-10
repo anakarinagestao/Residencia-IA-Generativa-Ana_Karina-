@@ -23,7 +23,8 @@ Repositório dedicado aos projetos práticos da residência, explorando IA Gener
 |:-:|---------|-----------|-------------|:------:|
 | 01 | [Configuração do Ambiente](./aula_1/) | Introdução ao Google Colab, Git e GitHub | Python, Colab, Git | ✅ Concluído |
 | 02 | [Conversão de PDFs com Docling](./aula_2/) | Pipeline de conversão PDF → Markdown/JSON com extração de metadados | Python, Docling, JSON, Regex | ✅ Concluído |
-| 03 | _Em breve_ | — | — | 🔄 Próximo |
+| 03 | [Busca Semântica em Documentos](./aula_3/) | Busca inteligente em arquivos .md usando embeddings e similaridade de cosseno | Python, Sentence Transformers, NumPy | ✅ Concluído |
+| 04 | _Em breve_ | — | — | 🔄 Próximo |
 
 ---
 
@@ -32,6 +33,8 @@ Repositório dedicado aos projetos práticos da residência, explorando IA Gener
 - **Python 3.10+** — Linguagem principal
 - **Google Colab** — Ambiente de execução em nuvem
 - **Docling** — Conversão e parsing de documentos
+- **Sentence Transformers** — Embeddings semânticos
+- **NumPy** — Operações vetoriais e similaridade
 - **Git & GitHub** — Controle de versão e portfólio
 - **Jupyter Notebook** — Documentação interativa
 
@@ -41,10 +44,10 @@ Repositório dedicado aos projetos práticos da residência, explorando IA Gener
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/Residencia-IA-Generativa-Ana_Karina.git
+git clone https://github.com/anakarinagestao/Residencia-IA-Generativa-Ana_Karina.git
 
 # Entre na pasta do projeto desejado
-cd Residencia-IA-Generativa-Ana_Karina/aula_2
+cd Residencia-IA-Generativa-Ana_Karina/aula_3
 
 # Instale as dependências
 pip install -r requirements.txt
@@ -52,11 +55,13 @@ pip install -r requirements.txt
 # Abra o notebook no Colab ou Jupyter
 
 📬 Contato
-📧 E-mail:ANAKARINAGESTAO@GMAIL.COM
-💼 LinkedIn: https://www.linkedin.com/in/anakarinapereira/
-🐙 GitHub: https://github.com/anakarinagestao)
 
+📧 E-mail	anakarinagestao@gmail.com
+💼 LinkedIn	linkedin.com/in/anakarinapereira
+🐙 GitHub	github.com/anakarinagestao
 
 Feito com 💜 por Ana Karina — PUC Rio 2026
 
-Se gostou, considere dar uma ⭐!
+⭐ Se gostou, considere dar uma estrela!
+
+
