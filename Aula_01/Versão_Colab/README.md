@@ -51,7 +51,7 @@ client = OpenAI(
 
 response = client.chat.completions.create(
     model="nvidia/nemotron-3-ultra-550b-a55b:free",
-    messages=[{"role": "user", "content": "write a haiku about ai"}]
+    messages=[{"role": "user", "content": "Qual a capital do Brasil"}]
 )
 
 print(response.choices[0].message.content)
