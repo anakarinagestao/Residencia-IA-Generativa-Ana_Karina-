@@ -1,0 +1,19 @@
+# Relatório de Análise — Estratégias de Chunking (AULA_04)
+
+**Residência em IA Generativa & RAG — Instituto ECOA / PUC-Rio**
+**Autora: Ana Karina**
+
+Neste relatório, comparo 10 estratégias de chunking aplicadas a uma base de 12 documentos
+(3 artigos em português sobre ética em IA e 9 papers técnicos em inglês sobre LLMs/RAG),
+convertidos de PDF para Markdown com Docling e vetorizados com o modelo local
+`paraphrase-multilingual-MiniLM-L12-v2` (384 dimensões).
+
+A tabela de dados consolidados abaixo foi gerada a partir de `results/summary.json`
+(estatísticas reprodutíveis). A análise das perguntas que segue traz minha interpretação
+desses resultados a partir da execução dos experimentos.
+
+## Dados consolidados (12 documentos)
+
+| Teste | Estratégia | Total de chunks | Média (chars) | Mín | Máx |
+|------:|------------|----------------:|--------------:|----:|----:|
+| 1 | Fixo, 200 caracteres, sem overlap | 7269
