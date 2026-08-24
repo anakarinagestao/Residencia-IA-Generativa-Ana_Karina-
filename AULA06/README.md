@@ -3,7 +3,7 @@
 
 ---
 
-# CENÁRIO 1 — CHARGEBACK
+# CENÁRIO 1 — CHARGEBACk
 
 ## Parte 1 - Identificação dos problemas
 
