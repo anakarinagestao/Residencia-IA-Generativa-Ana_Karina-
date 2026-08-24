@@ -198,7 +198,7 @@ documentos/
 **Por que é adequado:** o cenário lida com documentos institucionais de gateways de pagamento e precisa de alta confiabilidade — erro de prazo gera prejuízo real. Custo-benefício ótimo, bom suporte a português, aceita textos longos (8.191 tokens) e não exige infraestrutura própria (importante, já que o time não tem perfil DevOps).
 
 ## Arquitetura Final - Chargeback
-(gerando )
+
 ```mermaid
 flowchart TD
     A[Documentos fonte: HTML / PDF / Prints] --> B[Extração: BeautifulSoup4, pdfplumber/PyPDF2, Tesseract OCR]
@@ -213,13 +213,6 @@ flowchart TD
     J --> K[LLM + contexto recuperado]
     K --> L[Resposta com fonte citada - exibida no sistema de gestão do analista]
 ```
-
-
-
-
-
-
-
 
 **Tabela de decisões:**
 
@@ -395,7 +388,20 @@ Pipeline roda sob demanda, a cada novo desafio publicado. Reprocessamento seleti
 
 ## Arquitetura Final - GymRat
 
-gerando
+```mermaid
+flowchart TD
+    A[Documento fonte: texto de regras digitado no app] --> B[Extração: nenhuma ferramenta especial, já digital]
+    B --> C[Limpeza: remove espaços/caracteres invisíveis, garante UTF-8]
+    C --> D[Chunking: por parágrafo, sem overlap]
+    D --> E[Metadados: document_id, status, data_inicio, data_fim, category]
+    E --> F[Embedding: BGE-M3 - local ou Hugging Face]
+    F --> G[Banco vetorial: filtro por status=ativo]
+    G --> H[Consulta do usuário]
+    H --> I[Retrieval filtrado]
+    I --> J[LLM + contexto recuperado]
+    J --> K[Resposta citando título/período - exibida no chat do app GymRat]
+```
+
 
 **Tabela de decisões:**
 
