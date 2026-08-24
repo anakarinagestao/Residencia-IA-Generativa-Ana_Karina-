@@ -199,12 +199,6 @@ documentos/
 
 ## Arquitetura Final - Chargeback
 
-<img width="3360" height="1888" alt="AaA0a-eUtHZRcNkwEqszXw-AaA0a-eUYpSBhwOij2t8JQ" src="https://github.com/user-attachments/assets/f6e42bd1-625e-477e-b4ca-eedbe8a89a24" />
-
-
-
-
-
 ```
 [Documentos fonte: HTML / PDF / Prints]
         |
