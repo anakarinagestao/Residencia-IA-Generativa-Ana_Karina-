@@ -199,6 +199,27 @@ documentos/
 
 ## Arquitetura Final - Chargeback
 (gerando )
+```mermaid
+flowchart TD
+    A[Documentos fonte: HTML / PDF / Prints] --> B[Extração: BeautifulSoup4, pdfplumber/PyPDF2, Tesseract OCR]
+    B --> C[Limpeza e normalização: remove ruído, corrige codificação]
+    C --> D[Anonimização - regex: nome e transação mascarados]
+    D --> E[Chunking: recursivo, 500-1000 caracteres, overlap 10-20%]
+    E --> F[Metadados: document_id, type, category, gateway, page, section]
+    F --> G[Embedding: OpenAI text-embedding-3-small]
+    G --> H[Banco vetorial: indexado com filtro por gateway/status]
+    H --> I[Consulta do usuário]
+    I --> J[Retrieval filtrado]
+    J --> K[LLM + contexto recuperado]
+    K --> L[Resposta com fonte citada - exibida no sistema de gestão do analista]
+```
+
+
+
+
+
+
+
 
 **Tabela de decisões:**
 
