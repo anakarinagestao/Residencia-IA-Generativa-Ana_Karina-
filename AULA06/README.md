@@ -506,10 +506,9 @@ Escolheria o **Chargeback** — representa um problema de negócio real e mensur
 
 # Como usei IA para me apoiar nessa atividade
 
-Utilizei a **Claudinha** (assistente baseada em IA, modelo Claude/Anthropic) como mentora ao longo de toda a construção dos dois cenários de RAG (Chargeback e GymRat). A ferramenta foi usada para:
+Criei  a **Claudinha** (assistente baseada em IA, modelo Claude/Anthropic) como mentora ao longo de toda a construção dos dois cenários de RAG (Chargeback e GymRat). A ferramenta foi usada para:
 
 - **Estruturar o raciocínio** de cada parte do desafio (diagnóstico do problema, organização de documentos, pipeline de ingestão, metadados, chunking e embeddings), sempre respondendo primeiro antes de validar ou complementar.
-- **Pesquisar informações técnicas atualizadas** sobre modelos de embedding (dimensões, custo, suporte a português, limite de tokens), dado que esse tipo de informação muda com frequência.
 - **Montar diagramas e tabelas de decisão** de forma organizada, sintetizando as escolhas feitas ao longo da conversa.
 
 **Como avaliei e verifiquei as respostas da IA:**
