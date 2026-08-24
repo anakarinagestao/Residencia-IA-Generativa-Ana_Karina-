@@ -198,43 +198,7 @@ documentos/
 **Por que é adequado:** o cenário lida com documentos institucionais de gateways de pagamento e precisa de alta confiabilidade — erro de prazo gera prejuízo real. Custo-benefício ótimo, bom suporte a português, aceita textos longos (8.191 tokens) e não exige infraestrutura própria (importante, já que o time não tem perfil DevOps).
 
 ## Arquitetura Final - Chargeback
-
-```
-[Documentos fonte: HTML / PDF / Prints]
-        |
-        v
-[Extracao: BeautifulSoup4 | pdfplumber-PyPDF2 | Tesseract OCR]
-        |
-        v
-[Limpeza e normalizacao: remove ruido, corrige codificacao]
-        |
-        v
-[Anonimizacao - regex: nome e transacao mascarados]
-        |
-        v
-[Chunking: recursivo, 500-1000 caracteres, overlap 10-20%]
-        |
-        v
-[Metadados: document_id, type, category, gateway, page, section]
-        |
-        v
-[Embedding: OpenAI text-embedding-3-small]
-        |
-        v
-[Banco vetorial: indexado com filtro por gateway/status]
-        |
-        v
-[Consulta do usuario]
-        |
-        v
-[Retrieval filtrado]
-        |
-        v
-[LLM + contexto recuperado]
-        |
-        v
-[Resposta com fonte citada, exibida no sistema de gestao do analista]
-```
+(gerando )
 
 **Tabela de decisões:**
 
@@ -410,39 +374,7 @@ Pipeline roda sob demanda, a cada novo desafio publicado. Reprocessamento seleti
 
 ## Arquitetura Final - GymRat
 
-```
-[Documento fonte: texto de regras digitado no app]
-        |
-        v
-[Extracao: nenhuma ferramenta especial, ja digital]
-        |
-        v
-[Limpeza: remove espacos/caracteres invisiveis, garante UTF-8]
-        |
-        v
-[Chunking: por paragrafo, sem overlap]
-        |
-        v
-[Metadados: document_id, status, data_inicio, data_fim, category]
-        |
-        v
-[Embedding: BGE-M3 (local ou Hugging Face)]
-        |
-        v
-[Banco vetorial: filtro por status=ativo]
-        |
-        v
-[Consulta do usuario]
-        |
-        v
-[Retrieval filtrado]
-        |
-        v
-[LLM + contexto recuperado]
-        |
-        v
-[Resposta citando titulo/periodo, exibida no chat do app GymRat]
-```
+gerando
 
 **Tabela de decisões:**
 
