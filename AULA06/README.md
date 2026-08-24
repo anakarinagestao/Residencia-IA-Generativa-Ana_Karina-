@@ -1,4 +1,4 @@
-<img width="3360" height="1888" alt="AaA0a-eUtHZRcNkwEqszXw-AaA0a-eUYpSBhwOij2t8JQ" src="https://github.com/user-attachments/assets/085fe8c6-84d6-43e0-af77-5757d77c19db" /># Projeto RAG - Comparação entre Dois Cenários
+# Projeto RAG - Comparação entre Dois Cenários
 ### Cenário 1: Chargeback | Cenário 2: GymRat
 
 ---
