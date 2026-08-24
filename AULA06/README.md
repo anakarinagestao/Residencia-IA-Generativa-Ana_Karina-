@@ -1,4 +1,4 @@
-# Projeto RAG - Comparação entre Dois Cenários
+<img width="3360" height="1888" alt="AaA0a-eUtHZRcNkwEqszXw-AaA0a-eUYpSBhwOij2t8JQ" src="https://github.com/user-attachments/assets/085fe8c6-84d6-43e0-af77-5757d77c19db" /># Projeto RAG - Comparação entre Dois Cenários
 ### Cenário 1: Chargeback | Cenário 2: GymRat
 
 ---
@@ -198,6 +198,12 @@ documentos/
 **Por que é adequado:** o cenário lida com documentos institucionais de gateways de pagamento e precisa de alta confiabilidade — erro de prazo gera prejuízo real. Custo-benefício ótimo, bom suporte a português, aceita textos longos (8.191 tokens) e não exige infraestrutura própria (importante, já que o time não tem perfil DevOps).
 
 ## Arquitetura Final - Chargeback
+
+<img width="3360" height="1888" alt="AaA0a-eUtHZRcNkwEqszXw-AaA0a-eUYpSBhwOij2t8JQ" src="https://github.com/user-attachments/assets/f6e42bd1-625e-477e-b4ca-eedbe8a89a24" />
+
+
+
+
 
 ```
 [Documentos fonte: HTML / PDF / Prints]
